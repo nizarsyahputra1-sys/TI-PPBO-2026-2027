@@ -1,15 +1,8 @@
 public class LatihanClass {
     public static void main(String[] args){
         Mahasiswa m1 = new Mahasiswa();
+        Mahasiswa m2 = new Mahasiswa("Siti", "4567",3.90);
 
-        m1.nama = "Budi";
-        m1.nim = "12345";
-        m1.ipk = 3.75;
-
-        Mahasiswa m2 = new Mahasiswa();
-        m2.nama = "Siti";
-        m2.nim = "4567";
-        m2.ipk = 3.90;
 
 
         System.out.println(m1.nama + " - " + m1.ipk);
