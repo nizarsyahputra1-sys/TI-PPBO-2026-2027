@@ -5,7 +5,6 @@ public class OperasiArray {
 
         for (int n : nilai){
             total += n;
-
         }
         double rataRata = (double) total / nilai.length;
 

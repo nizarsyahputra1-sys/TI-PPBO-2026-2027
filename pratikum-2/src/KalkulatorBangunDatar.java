@@ -3,8 +3,6 @@
 //Kelas  : TI.2A
 //Program: KalkulatorBangunDatar.java
 //Tugas  : Program menghitung luas dan keliling persegi panjang serta lingkaran,dan melakukan pengecekan kondisi luas
-
-
 import java.util.Scanner;
 public class KalkulatorBangunDatar {
     public static void main(String[] args){

@@ -12,6 +12,5 @@ public class OperatorDemo {
         System.out.println("Lulus(>=75): " + (nilaiUjian>=75));
         System.out.println("Lulus DAN hadir: " + (nilaiUjian>=75 && hadir));
 
-
     }
 }

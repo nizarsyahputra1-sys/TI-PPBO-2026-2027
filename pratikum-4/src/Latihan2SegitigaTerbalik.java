@@ -3,7 +3,7 @@ public class Latihan2SegitigaTerbalik {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Masukkan tinggi/ukutan pola: ");
+        System.out.println("Masukkan tinggi/ukuran pola: ");
         int n = input.nextInt();
 
         System.out.println("\nSetiga terbalik:");

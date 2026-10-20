@@ -18,8 +18,5 @@ public class ArrayDemo {
         for (int n : nilai){
             System.out.println(n);
         }
-
-
-
     }
 }

@@ -16,14 +16,10 @@ public class BilanganTerbesar {
 
         if (a >= b && a >= c){
             terbesar = a;
-            
         } else if (b >= a && b >= c) {
             terbesar = b;
-
-            
         }else {
             terbesar = c;
-
         }
 
         System.out.println("Bilangan terbesar adalah " + terbesar);

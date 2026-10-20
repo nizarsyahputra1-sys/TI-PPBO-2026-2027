@@ -8,7 +8,6 @@ public class Latihan4 {
             }
         }
         return min;
-
     }
 
     static int cariNilaiMaksimum(int[] data){

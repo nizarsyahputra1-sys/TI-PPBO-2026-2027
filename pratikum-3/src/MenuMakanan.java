@@ -29,6 +29,5 @@ public class MenuMakanan {
 
         }
         input.close();
-
     }
 }

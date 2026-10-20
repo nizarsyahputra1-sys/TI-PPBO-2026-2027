@@ -49,19 +49,16 @@ public class HitungTarifListrik {
                         tarif = Tarif_2200;
                         golongan = "Di atas 2200 VA ("+ daya + "VA)";
 
-
                     }else {
                         dayaValid = false;
 
                     }
-
             }
             if (!dayaValid){
                 System.out.println("Error: golongan daya tidak valid! " + "Pilih 450,900,1300,2200.");
 
             }else {
                 double total = kwh * tarif;
-
 
                 System.out.println();
                 System.out.println("===========================");

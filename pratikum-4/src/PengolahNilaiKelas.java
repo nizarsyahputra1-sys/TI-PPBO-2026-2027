@@ -26,7 +26,6 @@ public class PengolahNilaiKelas {
         int terendah = nilai[0];
         int jumlahLulus = 0;
         int jumlahTidakLulus = 0;
-5
         for (int i = 0; i < n; i++) {
             total += nilai[i];
 
