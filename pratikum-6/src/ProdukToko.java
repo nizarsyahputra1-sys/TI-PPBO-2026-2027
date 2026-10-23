@@ -1,26 +1,32 @@
+import java.util.Locale;
 public class ProdukToko {
     String kodeProduk;
     String namaProduk;
-    double harga;
+    long harga;
     int stok;
 
-    public ProdukToko(String kodeProduk, String namaProduk, double harga, int stok){
+    public ProdukToko(String kodeProduk, String namaProduk, long harga, int stok){
         this.kodeProduk = kodeProduk;
         this.namaProduk = namaProduk;
         this.harga = harga;
         this.stok = stok;
 
     }
-    double hitungTotalHarga(int jumlahBeli){
-        return harga * jumlahBeli;
+
+    public static String formatRupiah(long angka) {
+        return String.format(Locale.forLanguageTag("id-ID"), "Rp %,d", angka);
+    }
+    public long hitungTotalHarga(int jumlah) {
+        return (long) (harga * jumlah);
     }
 
-    void kurangiStok(int jumlah){
-        if (stok >= jumlah){
-            stok -= jumlah;
-        }else {
-            System.out.println("Stok tidak mencukupi");
+    public boolean kurangiStok(int jumlah) {
+        if (jumlah > stok) {
+            System.out.println("Stok tidak cukup! Diminta " + jumlah + ", tersedia " + stok);
+            return false;
         }
+        stok -= jumlah;
+        return true;
     }
     void tampilkanData(){
         System.out.println("Kode : " + kodeProduk);
