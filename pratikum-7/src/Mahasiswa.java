@@ -27,4 +27,5 @@ public class Mahasiswa {
             System.out.println("IPK tidak valid, harus 0.0 - 4.0");
         }
     }
+
 }
